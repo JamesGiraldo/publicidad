@@ -12,7 +12,8 @@
     <script type="text/javascript" src="Recurso/bootstrap-notify.min.js"></script>
   </head>
   <body>
-    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+    <header class="navbar navbar-expand navbar-dark flex-column flex-md-row bd-navbar">
+      <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
         <a class="navbar-brand" href="/publicidad">Publicidades</a>
        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
          <span class="navbar-toggler-icon">Hola</span>
@@ -30,9 +31,7 @@
              <a class="nav-link" href="?controlador=usuario&accion=index">Usuarios</a>
            </li>
            <li class="nav-item">
-             <a class="nav-link" href="#">Categorias</a>
-
-             <!-- <a class="nav-link" href="?controlador=producto&accion=index">Productos</a> -->
+             <a class="nav-link" href="?controlador=categoria&accion=index">Categorias</a>
            </li>
          </ul>
        </div>
@@ -42,6 +41,7 @@
        }
        ?>
     </nav>
+  </header> <br>
     <div class="row">
       <div class="col-md-12">
         <!-- El archivo rutas.php Gestionara  -->
