@@ -1,4 +1,4 @@
-<h1  class="text-center">Listado De Usuarios</h1> <br>
+<br> <h1  class="text-center">Listado De Usuarios</h1> <br>
 <button class="btn btn-outline-success"> <a  class=" text-dark nav-link" href="?controlador=usuario&accion=fromRUsuario">Registrar Usuarios</a></button>
 <?php
 if (isset($_SESSION['nombre'])) {

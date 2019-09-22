@@ -2,7 +2,7 @@
   <div class="col-md-4">
   </div>
   <div class="col-md-4">
-    <form class="form-group" action="?controlador=usuario&accion=editarUsuario" id="eUsuario" method="post">
+    <form class="form-group" action="?controlador=usuario&accion=editarUsuario" id="eUsuario" method="post"> <br>
       <h1 class="text-center" >Usuario <?php echo $datos['nombre_usu']; ?> </h1>
       <div class="form-group">
          <label for="">Nombre</label>

@@ -2,7 +2,7 @@
     <div class="col-md-4">
     </div>
     <div class="col-md-4">
-      <form class="form-group" action="?controlador=usuario&accion=regUsuario" method="post" id="rUsuario" >
+      <form class="form-group" action="?controlador=usuario&accion=regUsuario" method="post" id="rUsuario" > <br>
           <h1 class="text-center" >Registrar</h1>
           <div class="form-group">
              <label for="">Nombre</label>

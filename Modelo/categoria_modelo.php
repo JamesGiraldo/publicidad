@@ -36,7 +36,7 @@
       return $datos;
     }
 
-    public function editarUsuario($nombre,$id){
+    public function editarCategoria($nombre,$id){
       $i = new conexion();
       $c = $i->getConexion();
       $sql = "UPDATE categoria SET nombre_cat =:n WHERE id_cat=".$id ;
