@@ -10,7 +10,7 @@
     public function __construct(){
       require_once "Modelo/categoria_modelo.php";
     }
-    public function fromRUsuario()
+    public function fromRCategoria()
     {
       require_once "Vista/categoria/fromRegistro.php";
     }
@@ -50,6 +50,24 @@
           header("Location: /publicidad");
         }
     }
+    public function eliminar(){
+      if (isset($_GET['id']))
+       {
+        $id = $_GET['id'];
+        $um = new categoria_modelo();
+        $r = $um->eliminarcategoria($id);
+        if ($r > 0)
+         {
+          echo  json_encode(array("texto"=>"Categoria Eliminada", "estado"=>"success"));
+          header("Location: ?controlador=categoria&accion=index");
+         }
+      }
+        else
+        {
+          echo  json_encode(array("texto"=>"Error Al Eliminar", "estado"=>"danger"));
+          header("Location: /publicidad");
+        }
+      }
     public function show(){
       if (isset($_GET['id'])) {
         $id = $_GET['id'];

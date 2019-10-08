@@ -28,6 +28,7 @@
           $_SESSION["nombre"]  =$r["nombre_usu"];
           $_SESSION["apellido"]  =$r["apellido_usu"];
           $_SESSION["rol"] =$r["rol_usu"];
+            $_SESSION["id_usu"] =$r["id_usu"];
           header("Location: /publicidad");
         }
         else {
