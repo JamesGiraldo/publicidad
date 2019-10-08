@@ -9,7 +9,7 @@
              <input type="text" name="nombre" id="nombre" value="" placeholder="Nombre" class="form-control" required >
           </div>
           <div class="form-group">
-            <input type="hidden" name="opcion" value="1" required>
+            <input type="hidden" name="opcion" value="1" >
           </div>
           <div class="form-group">
             <button class="btn btn-outline-success">REGISTAR</button>
